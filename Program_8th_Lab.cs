@@ -69,7 +69,7 @@ class Task_2 : Task
         count = text.Split(charSeparators, StringSplitOptions.RemoveEmptyEntries).Length;
         foreach (var i in text)
         {
-            if (" ,-!.:;()".Contains(i))
+            if (",-!.:;()".Contains(i))
             {
                 ++count;
             }
@@ -99,13 +99,13 @@ class Task_3 : Task
     {
         char[] charSeparators = new char[] { ' ', ',', '-', '!', '.', ':', ';', '(', ')' };
         string[] s = text.Split(charSeparators, StringSplitOptions.RemoveEmptyEntries);
-        string vowels = "auoyieаиеёуояыюэ";
+        string vow = "auoyieаиеёуояыюэ";
         foreach (var i in s)
         {
             int syll = 0;
             for (int j = 0; j < i.Length; ++j)
             {
-                if (vowels.Contains(i.ToLower()[j]))
+                if (vow.Contains(i.ToLower()[j]))
                     ++syll;
             }
             if (syll > 0) count[syll]++;
@@ -116,78 +116,83 @@ class Task_3 : Task
 
 class Task4 : Task
 {
-    private string _answer;
-
-    public string Answer
+    private string cust_answer;
+    public string Cust_Answer
     {
-        get => _answer;
-        protected set => _answer = value;
+        get => cust_answer;
+        protected set => cust_answer = value;
     }
-
-    public Task4(string text) : base(text)
+    public Task4(string customText) : base(customText)
     {
-        _answer = "";
+        cust_answer = "";
     }
-
     protected override void Solution()
     {
         int _tmpLength = 0;
-        int _last = 50 - (text.Length % 50);
-
-        for (int i = 0; i < text.Length; i++)
+        int count, spacesPerWord, remainingSpaces;
+        string[] cust_words = text.Split(' ', (char)StringSplitOptions.RemoveEmptyEntries);
+        int lastWordIndex = 0;
+        for (int i = 0; i < cust_words.Length; ++i)
         {
-            if (check.Contains(text.ToUpper()[i]))
-            {
-                int _keepLength = _tmpLength;
-                string _word = "";
-                _tmpLength++;
-                _word += text[i];
-
-                while (i + 1 < text.Length && check.Contains(text.ToUpper()[i + 1]))
-                {
-                    _word += text[i + 1];
-                    ++i;
-                    ++_tmpLength;
-                }
-
-                if (_tmpLength > 50)
-                {
-                    string[] l = _answer.Split(' ', (char)StringSplitOptions.RemoveEmptyEntries);
-
-                    for (int j = 0; j < 50 - _keepLength; j++)
-                        _answer = _answer.Insert(_answer.Length - l[l.Length - 1].Length - 1, " "); _answer += '\n';
-                    ++_last;
-                    _tmpLength = _word.Length;
-                }
-
-                _answer += _word;
-                continue;
-            }
-
-            _answer += text[i];
-            _tmpLength++;
+            _tmpLength += cust_words[i].Length + 1;
 
             if (_tmpLength >= 50)
             {
-                ++_last;
-                _answer += "\n";
+                _tmpLength -= (cust_words[i].Length + 2);
+                count = 50 - _tmpLength;
+                spacesPerWord = count / (i - lastWordIndex - 1);
+                remainingSpaces = count % (i - lastWordIndex - 1);
+                for (int j = lastWordIndex; j < i; ++j)
+                {
+                    cust_answer += cust_words[j];
+                    cust_answer += " ";
+                    for (int k = 0; k < spacesPerWord; ++k)
+                    {
+                        cust_answer += " ";
+                    }
+                    if (remainingSpaces > 0)
+                    {
+                        cust_answer += " ";
+                        --remainingSpaces;
+                    }
+                }
+                cust_answer += "\n";
+                lastWordIndex = i;
+                --i;
                 _tmpLength = 0;
             }
         }
-
-        string[] _l = _answer.Split(' ', (char)StringSplitOptions.RemoveEmptyEntries);
-
-        for (int j = 0; j <= (_answer.Length - _last) % 50; j++)
-            _answer = _answer.Insert(_answer.Length - _l[_l.Length - 1].Length - 1, " ");
+        if (lastWordIndex != cust_words.Length - 1)
+        {
+            int i = cust_words.Length - 1;
+            _tmpLength -= 1;
+            count = 50 - _tmpLength;
+            spacesPerWord = count / (i - lastWordIndex);
+            remainingSpaces = count % (i - lastWordIndex);
+            for (int j = lastWordIndex; j <= i; ++j)
+            {
+                cust_answer += cust_words[j];
+                cust_answer += " ";
+                for (int k = 0; k < spacesPerWord; ++k)
+                {
+                    cust_answer += " ";
+                }
+                if (remainingSpaces > 0)
+                {
+                    cust_answer += " ";
+                    --remainingSpaces;
+                }
+            }
+            cust_answer += "\n";
+        }
     }
 
     public override string ToString()
     {
         Solution();
-        return Convert.ToString(_answer);
+        return Convert.ToString(cust_answer);
     }
 }
-
 class Task_5 : Task
 {
     private string result;
@@ -315,9 +320,9 @@ class Program
     public static void Main()
     {
         string text = "1 июля 2015 года Греция объявила о дефолте по государственному долгу, став первой развитой страной в истории, которая не смогла выплатить свои долговые обязательства в полном объеме. Сумма дефолта составила порядка 1,6 миллиарда евро. Этому предшествовали долгие переговоры с международными кредиторами, такими как Международный валютный фонд (МВФ), Европейский центральный банк (ЕЦБ) и Европейская комиссия (ЕК), о программах финансовой помощи и реструктуризации долга. Основными причинами дефолта стали недостаточная эффективность реформ, направленных на улучшение финансовой стабильности страны, а также политическая нестабильность, что вызвало потерю доверия со стороны международных инвесторов и кредиторов. Последствия дефолта оказались глубокими и долгосрочными: сокращение кредитного рейтинга страны, увеличение затрат на заемный капитал, рост стоимости заимствований и утрата доверия со стороны международных инвесторов.";
-
+        string sentense = "1 июля 2015 года Греция объявила о дефолте по государственному долгу, став первой развитой страной в истории, которая не смогла выплатить свои долговые обязательства в полном объеме.";
         Task_1 task1 = new Task_1(text);
-        Task_2 task_2 = new Task_2(text);
+        Task_2 task_2 = new Task_2(sentense);
         Task_3 task_3 = new Task_3(text);
         Task4 task_4 = new Task4(text);
         Task_5 task_5 = new Task_5(text);
