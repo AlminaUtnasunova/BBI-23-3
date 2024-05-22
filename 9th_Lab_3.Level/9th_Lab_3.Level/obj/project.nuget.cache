@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "LMyk/8w+AxHJcIrJK/zOqwcXCA2Xu7QpmzUqE6o8r9tzyx0pEmXq+fQrGh6u+uTsFwn8Azz2m+w7skPXz1isrw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user\\source\\repos\\9th_Lab_3.Level\\9th_Lab_3.Level\\9th_Lab_3.Level.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\protobuf-net\\3.2.30\\protobuf-net.3.2.30.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\protobuf-net.core\\3.2.30\\protobuf-net.core.3.2.30.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.collections.immutable\\7.0.0\\system.collections.immutable.7.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
