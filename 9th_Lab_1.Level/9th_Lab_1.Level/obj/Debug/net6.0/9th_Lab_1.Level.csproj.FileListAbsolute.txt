@@ -1,0 +1,38 @@
+C:\Users\user\source\repos\9th_Lab_1.Level\9th_Lab_1.Level\bin\Debug\net6.0\9th_Lab_1.Level.exe
+C:\Users\user\source\repos\9th_Lab_1.Level\9th_Lab_1.Level\bin\Debug\net6.0\9th_Lab_1.Level.deps.json
+C:\Users\user\source\repos\9th_Lab_1.Level\9th_Lab_1.Level\bin\Debug\net6.0\9th_Lab_1.Level.runtimeconfig.json
+C:\Users\user\source\repos\9th_Lab_1.Level\9th_Lab_1.Level\bin\Debug\net6.0\9th_Lab_1.Level.dll
+C:\Users\user\source\repos\9th_Lab_1.Level\9th_Lab_1.Level\bin\Debug\net6.0\9th_Lab_1.Level.pdb
+C:\Users\user\source\repos\9th_Lab_1.Level\9th_Lab_1.Level\bin\Debug\net6.0\protobuf-net.dll
+C:\Users\user\source\repos\9th_Lab_1.Level\9th_Lab_1.Level\bin\Debug\net6.0\protobuf-net.Core.dll
+C:\Users\user\source\repos\9th_Lab_1.Level\9th_Lab_1.Level\bin\Debug\net6.0\System.Collections.Immutable.dll
+C:\Users\user\source\repos\9th_Lab_1.Level\9th_Lab_1.Level\obj\Debug\net6.0\9th_Lab_1.Level.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\9th_Lab_1.Level\9th_Lab_1.Level\obj\Debug\net6.0\9th_Lab_1.Level.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\9th_Lab_1.Level\9th_Lab_1.Level\obj\Debug\net6.0\9th_Lab_1.Level.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\9th_Lab_1.Level\9th_Lab_1.Level\obj\Debug\net6.0\9th_Lab_1.Level.AssemblyInfo.cs
+C:\Users\user\source\repos\9th_Lab_1.Level\9th_Lab_1.Level\obj\Debug\net6.0\9th_Lab_1.Level.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\9th_Lab_1.Level\9th_Lab_1.Level\obj\Debug\net6.0\9th_Lab_1.Level.csproj.CopyComplete
+C:\Users\user\source\repos\9th_Lab_1.Level\9th_Lab_1.Level\obj\Debug\net6.0\9th_Lab_1.Level.dll
+C:\Users\user\source\repos\9th_Lab_1.Level\9th_Lab_1.Level\obj\Debug\net6.0\refint\9th_Lab_1.Level.dll
+C:\Users\user\source\repos\9th_Lab_1.Level\9th_Lab_1.Level\obj\Debug\net6.0\9th_Lab_1.Level.pdb
+C:\Users\user\source\repos\9th_Lab_1.Level\9th_Lab_1.Level\obj\Debug\net6.0\9th_Lab_1.Level.genruntimeconfig.cache
+C:\Users\user\source\repos\9th_Lab_1.Level\9th_Lab_1.Level\obj\Debug\net6.0\ref\9th_Lab_1.Level.dll
+C:\Users\elist\OneDrive\Документы\9 лаб\9th_Lab_1.Level\9th_Lab_1.Level\bin\Debug\net6.0\9th_Lab_1.Level.exe
+C:\Users\elist\OneDrive\Документы\9 лаб\9th_Lab_1.Level\9th_Lab_1.Level\bin\Debug\net6.0\9th_Lab_1.Level.deps.json
+C:\Users\elist\OneDrive\Документы\9 лаб\9th_Lab_1.Level\9th_Lab_1.Level\bin\Debug\net6.0\9th_Lab_1.Level.runtimeconfig.json
+C:\Users\elist\OneDrive\Документы\9 лаб\9th_Lab_1.Level\9th_Lab_1.Level\bin\Debug\net6.0\9th_Lab_1.Level.dll
+C:\Users\elist\OneDrive\Документы\9 лаб\9th_Lab_1.Level\9th_Lab_1.Level\bin\Debug\net6.0\9th_Lab_1.Level.pdb
+C:\Users\elist\OneDrive\Документы\9 лаб\9th_Lab_1.Level\9th_Lab_1.Level\bin\Debug\net6.0\protobuf-net.dll
+C:\Users\elist\OneDrive\Документы\9 лаб\9th_Lab_1.Level\9th_Lab_1.Level\bin\Debug\net6.0\protobuf-net.Core.dll
+C:\Users\elist\OneDrive\Документы\9 лаб\9th_Lab_1.Level\9th_Lab_1.Level\bin\Debug\net6.0\System.Collections.Immutable.dll
+C:\Users\elist\OneDrive\Документы\9 лаб\9th_Lab_1.Level\9th_Lab_1.Level\obj\Debug\net6.0\9th_Lab_1.Level.csproj.AssemblyReference.cache
+C:\Users\elist\OneDrive\Документы\9 лаб\9th_Lab_1.Level\9th_Lab_1.Level\obj\Debug\net6.0\9th_Lab_1.Level.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elist\OneDrive\Документы\9 лаб\9th_Lab_1.Level\9th_Lab_1.Level\obj\Debug\net6.0\9th_Lab_1.Level.AssemblyInfoInputs.cache
+C:\Users\elist\OneDrive\Документы\9 лаб\9th_Lab_1.Level\9th_Lab_1.Level\obj\Debug\net6.0\9th_Lab_1.Level.AssemblyInfo.cs
+C:\Users\elist\OneDrive\Документы\9 лаб\9th_Lab_1.Level\9th_Lab_1.Level\obj\Debug\net6.0\9th_Lab_1.Level.csproj.CoreCompileInputs.cache
+C:\Users\elist\OneDrive\Документы\9 лаб\9th_Lab_1.Level\9th_Lab_1.Level\obj\Debug\net6.0\9th_Lab_1.Level.csproj.CopyComplete
+C:\Users\elist\OneDrive\Документы\9 лаб\9th_Lab_1.Level\9th_Lab_1.Level\obj\Debug\net6.0\9th_Lab_1.Level.dll
+C:\Users\elist\OneDrive\Документы\9 лаб\9th_Lab_1.Level\9th_Lab_1.Level\obj\Debug\net6.0\refint\9th_Lab_1.Level.dll
+C:\Users\elist\OneDrive\Документы\9 лаб\9th_Lab_1.Level\9th_Lab_1.Level\obj\Debug\net6.0\9th_Lab_1.Level.pdb
+C:\Users\elist\OneDrive\Документы\9 лаб\9th_Lab_1.Level\9th_Lab_1.Level\obj\Debug\net6.0\9th_Lab_1.Level.genruntimeconfig.cache
+C:\Users\elist\OneDrive\Документы\9 лаб\9th_Lab_1.Level\9th_Lab_1.Level\obj\Debug\net6.0\ref\9th_Lab_1.Level.dll
